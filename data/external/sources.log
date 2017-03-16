@@ -1,0 +1,31 @@
+Sources of sRNA information:
+
+Arnvig et al, Microbiology Spectrum 2(2):MGM2-00290-2013, 2014
+  added start and stop to make largest possible sRNA. Where no terminus
+  was known I added information from northern blot data or tuberculist.
+
+DiChiara et al, Nucl Acids Res 38(12):4067-4078, 2010
+  the annotation implies larger sRNA than detected experimentally.
+  this was done to avoid determining approximate start/end
+
+Miotto et al, PLoS ONE 7(12): e51950, 2012
+  added column reflecting the validation by Northern blot.
+  1: validated, 0: not tested, -1: false positive
+
+SIPHT (Livny et al, Nucl Acids Res, 34:3484-3493, 2006):
+  sRNA Predict2,
+  newbio.cs.wisc.edu/sRNA/published_annotations/annotations/NC_000962_sRNA.out_annotated
+
+Tsai et al, PLoS ONE 8(11): e79411, 2013
+  kept only information for sRNAs where Msm and BCG probes were shown
+  to cross-react with Mtb.
+
+Tuberculist version 2.6 (release 27, March 2013)
+
+Priority given as:
+- Arnvig + Tuberculist + Miotto Northern confirmed
+  (Non-redundant given that they were curated).
+- Miotto A-type
+- Non-redundant list of predicted sRNA not included above.
+
+In all cases I used the most inclusive possible coordinates.
